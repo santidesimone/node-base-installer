@@ -14,6 +14,11 @@ git clone https://github.com/santidesimone/node-base-installer.git
 cd node-base-installer
 ```
 
+```
+sudo npm i -g $(pwd)
+```
+
+
 **test how this works!**
 
 Type the *create* command and hit enter:
@@ -28,9 +33,7 @@ plugin
 ```
 It should prints this message in terminal: 'this method should plug-in new functionality to an already created base project'
 
-```
-sudo npm i -g $(pwd)
-```
+
 **to uninstall:**
 
 ```
