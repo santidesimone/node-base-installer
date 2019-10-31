@@ -19,6 +19,8 @@ sudo npm i -g $(pwd)
 ```
 **to uninstall:**
 
+```
 sudo npm uninstall -g $(pwd)
+```
 
 _ToDo: shold be uploaded to npmjs as a public module_
