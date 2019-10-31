@@ -14,6 +14,16 @@ git clone https://github.com/santidesimone/node-base-installer.git
 cd node-base-installer
 ```
 
+**test how this works!**
+
+```
+create // prints this message in terminal: 'this method should implement a base project creation'
+```
+
+```
+plugin // prints this message in terminal: 'this method should plug-in new functionality to an already created base project'
+```
+
 ```
 sudo npm i -g $(pwd)
 ```
