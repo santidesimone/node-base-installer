@@ -1,0 +1,29 @@
+{
+  "name": "node-base-installer",
+  "version": "1.0.0",
+  "description": "this modules helps you to bootstrap a nodejs api rest server and plugin to the project several useful components for executing common server tasks such as db cruds, vnp connection handling, rest access points operations and so on.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create": "./bin/create.js",
+    "plugin": "./bin/plugin.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santidesimone/node-base-installer.git"
+  },
+  "keywords": [
+    "nodejs-base-server",
+    "installer"
+  ],
+  "author": "Santiago De Simone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santidesimone/node-base-installer/issues"
+  },
+  "homepage": "https://github.com/santidesimone/node-base-installer#readme"
+}
