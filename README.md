@@ -16,13 +16,17 @@ cd node-base-installer
 
 **test how this works!**
 
+Type the *create* command and hit enter:
 ```
-create // prints this message in terminal: 'this method should implement a base project creation'
+create 
 ```
+It should prints this message in terminal: 'this method should implement a base project creation'
 
+Type the *plugin* command and hit enter:
 ```
-plugin // prints this message in terminal: 'this method should plug-in new functionality to an already created base project'
+plugin 
 ```
+It should prints this message in terminal: 'this method should plug-in new functionality to an already created base project'
 
 ```
 sudo npm i -g $(pwd)
