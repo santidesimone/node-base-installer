@@ -2,17 +2,23 @@
 
 For unix-based OS:
 
-clone the repository:
+**clone the repository:**
+
+```
 git clone https://github.com/santidesimone/node-base-installer.git
+```
 
-to install globally (and locally) this npm module, run:
+**to install globally (and locally) this npm module, run:**
 
+```
 cd node-base-installer
+```
 
+```
 sudo npm i -g $(pwd)
-
-to uninstall:
+```
+**to uninstall:**
 
 sudo npm uninstall -g $(pwd)
 
-ToDo: shold be uploaded to npmjs as a public module
+_ToDo: shold be uploaded to npmjs as a public module_
