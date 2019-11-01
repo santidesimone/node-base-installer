@@ -31,7 +31,18 @@ sudo npm i -g $(pwd)
 
 # How to use it
 
-*createServer* and  *addPlugin*  commands are now globally exposed for you to use them.
+*createServer* and  *addPlugin*  The following commands are now globally exposed for you to use them.
+
+| Command | Description |
+| --- | --- |
+| `createServer` | git-clones a NodeJS template server in the current directory |
+| `addPlugin <PLUGIN_NAME>`     | plugs-in a new component to the project. Must be executed from project's root directory |
+| `addPlugin jwtTokenCheck`    | jwtTokenCheck securized your server with Json Web Token |
+| `addPlugin restAccessPoint`    | restAccessPoint adds a new access point to your server |
+| `addPlugin vpnConn`    | vpnConn standarices the way you connect to a VPN from your server |
+| `addPlugin dbInterface`    | DBInterface standarices the way you connect to a database from your server |
+
+
 
 **Test commands**
 
