@@ -6,6 +6,7 @@ You can also use it to plug-in to the server several components that add typical
 - database CRUD operations
 - VPN connection handling
 - adding new API-rest access points
+- adding token-based security functionality
 
 
 # Installation
