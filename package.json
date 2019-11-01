@@ -8,7 +8,7 @@
   },
   "bin": {
     "createServer": "./bin/create.js",
-    "plugin": "./bin/plugin.js"
+    "addPlugin": "./bin/plugin.js"
   },
   "preferGlobal": true,
   "dependencies": {
