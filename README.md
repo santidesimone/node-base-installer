@@ -1,6 +1,13 @@
 # Node Base Server Installer
 
+This npm library helps you to bootstrap a Nodejs API-rest server.
+You can also use it to plug-in to the project several useful components for executing common server tasks, such as: database CRUD operations, VPN connection handling, adding new API-rest access points, and so on.
+
+
+# Installation
+
 For unix-based OS:
+
 
 **Clone the repository:**
 
@@ -18,8 +25,11 @@ cd node-base-installer
 sudo npm i -g $(pwd)
 ```
 
+# How to use it
 
-**Test how it works!**
+*createServer* and  *addPlugin*  commands are now globally exposed for you to use them.
+
+**Test commands**
 
 Type the *createServer* command and hit enter:
 ``` 
@@ -33,8 +43,7 @@ addPlugin
 ```
 Result will be printed in terminal.
 
-
-**To uninstall:**
+# Uninstalling
 
 ```
 sudo npm uninstall -g $(pwd)
