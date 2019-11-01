@@ -1,7 +1,11 @@
 # Node Base Server Installer
 
 This npm library helps you to bootstrap a Nodejs API-rest server.
-You can also use it to plug-in to the project several useful components for executing common server tasks, such as: database CRUD operations, VPN connection handling, adding new API-rest access points, and so on.
+You can also use it to plug-in to the server several components that add typical backend functionality, such as: 
+
+- database CRUD operations
+- VPN connection handling
+- adding new API-rest access points
 
 
 # Installation
