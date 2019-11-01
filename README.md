@@ -22,16 +22,16 @@ sudo npm i -g $(pwd)
 **test how this works!**
 
 Type the *create* command and hit enter:
+``` 
+createServer
 ```
-create 
-```
-It should prints this message in terminal: 'this method should implement a base project creation'
+Result will be printed in terminal.
 
 Type the *plugin* command and hit enter:
 ```
-plugin 
+addPlugin 
 ```
-It should prints this message in terminal: 'this method should plug-in new functionality to an already created base project'
+Result will be printed in terminal.
 
 
 **to uninstall:**
