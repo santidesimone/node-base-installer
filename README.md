@@ -37,7 +37,7 @@ sudo npm i -g $(pwd)
 | --- | --- |
 | `createServer` | git-clones a NodeJS template server in the current directory |
 | `addPlugin <PLUGIN_NAME>`     | plugs-in a new component to the project. Must be executed from project's root directory |
-| `addPlugin jwtTokenCheck`    | securizes your server with Json Web Token |
+| `addPlugin tokenCheck`    | securizes your server with Json Web Token (JWT) |
 | `addPlugin accessPoint`    | adds a new access point to your server |
 | `addPlugin vpnConn`    | standarices the way you connect to a VPN from your server |
 | `addPlugin dbInterface`    | standarices the way you connect to a database from your server |
