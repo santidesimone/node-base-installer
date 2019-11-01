@@ -32,7 +32,7 @@ sudo npm i -g $(pwd)
 
 # How to use it
 
-*createServer* and  *addPlugin*  The following commands are now globally exposed for you to use them.
+The following commands are now globally exposed for you to use them.
 
 | Command | Description |
 | --- | --- |
