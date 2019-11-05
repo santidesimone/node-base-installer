@@ -12,6 +12,7 @@
   "preferGlobal": true,
   "dependencies": {
     "axios": "^0.19.0",
+    "jsonwebtoken": "^8.5.1",
     "nodegit": "^0.26.2"
   },
   "repository": {
@@ -26,6 +27,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/santidesimone/node-base-installer/issues"
+  },
+  "engines": {
+    "npm": "1.4.x"
   },
   "homepage": "https://github.com/santidesimone/node-base-installer#readme"
 }

@@ -7,25 +7,25 @@ let args = process.argv.splice(process.execArgv.length + 2);
 
 let commands = {
     create: {
-        method: 'create', /* server */
+        defaultMethod: 'init', /* server */
     },
     add: {
-        method: 'add',  /* plugin <PLUGIN_NAME> */
+        defaultMethod: 'init',  /* plugin <PLUGIN_NAME> */
     },
     version: {
-        method: 'version',
+        defaultMethod: 'init',
     },
     help: {
-        method: 'help',
+        defaultMethod: 'init',
     },
     info: {
-        method: 'info',
+        defaultMethod: 'init',
     },
     log: {
-        functionName: 'log',
+        defaultMethod: 'init',
     },
     update: {
-        method: 'update',
+        defaultMethod: 'init',
     }
 };
 
@@ -49,8 +49,9 @@ const init = function() {
     }
     if (isValidCommand) {
         try{
-            Main[commands[commandName].method](...commandParameters);
+            Main[commandName][commands[commandName].defaultMethod](...commandParameters)
         }catch(e){
+            console.log(e)
             printMessage("xdome: an unexpected error ocurred.")
         }
     }
