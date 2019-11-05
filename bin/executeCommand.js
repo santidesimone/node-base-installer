@@ -29,7 +29,7 @@ let commands = {
     }
 };
 
-let commandName = args[0];
+let commandName = args[0].toLowerCase();;
 let commandIsUndefined = (commandName===undefined)?true:false;
 let isValidCommand = Object.keys(commands).includes(commandName);
 let commandParameters = args.splice(1);
@@ -43,9 +43,10 @@ const printMessage = function(message) {
     console.log(message);
     console.log('');
 };
+
 const init = function() {
     if (commandIsUndefined) {
-        return Main[commands['info'].method]();
+        return Main.info[commands['info'].defaultMethod]();
     }
     if (isValidCommand) {
         try{
