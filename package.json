@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "createServer": "./bin/create.js",
-    "addPlugin": "./bin/plugin.js"
+    "xdome": "./bin/executeCommand.js"
   },
   "preferGlobal": true,
   "dependencies": {
