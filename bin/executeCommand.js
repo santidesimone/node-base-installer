@@ -29,7 +29,8 @@ let commands = {
     }
 };
 
-let commandName = args[0].toLowerCase();;
+let commandName = (args[0]!=undefined)?args[0].toLowerCase():undefined;
+
 let commandIsUndefined = (commandName===undefined)?true:false;
 let isValidCommand = Object.keys(commands).includes(commandName);
 let commandParameters = args.splice(1);
